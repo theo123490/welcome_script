@@ -2,7 +2,7 @@ printf "             \`;,;.;,;.;.'                     | Date : " ; date '+%Y-%m
 printf "              ..:;:;::;:                      | Time : "; date '+%H:%M:%S'
 printf "        ..--''' '' ' ' '''--.                 | User : "; whoami
 printf "      /' .   .'        '.   .\`\\               | Uptime : "; uptime
-printf "     | /    /            \\   '.|              | kubernetes context : "; kubectl config current-context
+printf "     | /    /            \\   '.|              | \n"
 printf "     | |   :             :    :|              |     \n"
 printf "   .'| |   :             :    :|              |     \n"
 printf " ,: /\\ \\.._\\ __..===..__/_../ /\`.             |     \n"
